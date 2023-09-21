@@ -2,6 +2,10 @@
 import Image from '../assets/img/logo/house-banner.png'
 // import components
 import Search from '../components/Search'
+/*
+  Here section
+*/
+
 const Banner = () => {
   return (
     <section className='h-full max-h-[640px] mb-8 xl:mb-24 capitalize'>

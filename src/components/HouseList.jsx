@@ -12,13 +12,13 @@ const HouseList = () => {
   // if loading is true
   if (loading) {
     return (
-      <ImSpinner9 className='mx-auto animate-spin text-violet-700 text-4xl mt-[200px]' />
+      <ImSpinner9 className='mx-auto animate-spin text-violet-700 text-4xl my-[200px] ' />
     )
   }
 
   if (houses.length < 1) {
     return (
-      <div className='text-center text-3xl text-gray-400 mt-48 '>
+      <div className='text-center text-3xl text-gray-400 my-10  '>
         sorry no product to show
       </div>
     )
